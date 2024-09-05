@@ -14,9 +14,9 @@ if (typeof window !== "undefined" && process.env.NODE_ENV === "development") {
   import("vivid-studio/style.css");
 }
 
-const siteTitle = "Vivid — Build visually. Code faster.";
+const siteTitle = "Developer Castle.";
 const siteDescription =
-  "Make CSS styling a breeze with Vivid's in-browser visual editor that automatically updates your code.";
+  "A Software house that bring Desigin into System.";
 
 const App = ({ Component, pageProps }: AppProps) => {
   const { isDarkMode, toggle: toggleDarkMode } = useDarkMode();
