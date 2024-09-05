@@ -24,7 +24,7 @@ export const Section = (
   const Gradients = () => (
     <>
       <div className="absolute inset-0 z-10 backdrop-blur-[200px]" />
-      <NeonCircle className="md:-left-[28rem] -left-40 -top-40 md:-top-[28rem] bg-neon-pink" />
+      <NeonCircle className="md:-left-[28rem] -left-40 -top-40 md:-top-[28rem] " />
       <NeonCircle className="md:-right-[28rem] -right-40 -bottom-40 md:-bottom-[28rem] bg-neon-blue" />
     </>
   );
